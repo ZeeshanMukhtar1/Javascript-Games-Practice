@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Potta+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Lato:ital,wght@1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+#game {
+  height: 500px;
+  width: 390px;
+  border: 1px solid black;
+  margin: 1rem auto;
+  background: url(img/bg.jpg);
+  background-size: contain;
+  -webkit-box-shadow: 0 0 10px aqua;
+  box-shadow: 0 0 10px aqua;
+  overflow: hidden;
+}
+#bluecar {
+  height: 100px;
+  width: 130px;
+
+  position: relative;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  animation: Zee 1s linear infinite;
+}
+#bluecar img {
+  height: 100px;
+}
+@keyframes Zee {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 501px;
+  }
+}
+#racecar {
+  height: 100px;
+  width: 130px;
+
+  position: relative;
+  top: 250px;
+  left: 130px;
+  text-align: center;
+}
+#racecar img {
+  height: 100px;
+}
+
+#result {
+  height: 200px;
+  width: 400px;
+  background-color: cornflowerblue;
+  margin: 1rem auto;
+  border-radius: 20px;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  font-family: "Potta One", cursive;
+  text-align: center;
+  color: white;
+  -webkit-box-shadow: 0 0 10px red;
+  box-shadow: 0 0 10px red;
+  display: none;
+}
+#result h1{
+     text-shadow: 2px rgba(0, 0, 0, 0.8);
+}
+#score {
+  font-size: 2.5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color:  #B53471;
+}
+#btn {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  font-family: "Balsamiq Sans", cursive;
+  font-family: "Lato", sans-serif;
+  margin-top: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+}

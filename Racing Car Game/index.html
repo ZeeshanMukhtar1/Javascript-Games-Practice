@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Racing moto</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="game">
+      <div id="bluecar"><img src="Img/Blue-car.png" alt="blue-car" /></div>
+      <div id="racecar"><img src="Img/My-car.png" alt="Red-car" /></div>
+    </div>
+    <div id="result">
+      <h1>Game Over</h1>
+      <p id="score"></p>
+      <button id="btn" onclick="location.reload()">Restart Game</button>
+    </div>
+
+    <audio id="jumpsound" src="Audios/jumpsound.mp3"></audio>
+    <audio id="gameMusic" src="Audios/game music.mp3" loop></audio>
+    <audio id="gameOverMusic" src="Audios/game over.wav"></audio>
+    <!-- <audio id="gameOverMusic" src="Audios/drift.mp3"></audio> -->
+
+    <script src="Script.js"></script>
+  </body>
+</html>
